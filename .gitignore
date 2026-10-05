@@ -1,20 +1,16 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 env/
 
-# Jupyter
 .ipynb_checkpoints/
 
-# OS / IDE
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Model artifacts / experiment outputs
 *.h5
 *.keras
 *.ckpt
@@ -24,8 +20,3 @@ models/
 outputs/
 logs/
 
-# Large/local datasets
-data/images/**/*.png
-data/images/**/*.jpg
-data/images/**/*.jpeg
-data/raw/
